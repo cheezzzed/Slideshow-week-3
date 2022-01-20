@@ -1,0 +1,2 @@
+let slides=document.querySelectorAll(".slideshow img");console.log(slides),slides[0].classList.add("show");let slideIndex=0;setInterval((function(){slides[slideIndex].classList.remove("show"),slideIndex++,slideIndex===slides.length&&(slideIndex=0),slides[slideIndex].classList.add("show")}),3e3);
+//# sourceMappingURL=main.js.map
