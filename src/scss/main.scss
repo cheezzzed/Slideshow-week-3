@@ -29,11 +29,23 @@ body {
 /* 2. Content ================================= */
 
 .slideshow {
+	position: relative;
+	width: 100%;
 	img {
-		width: 200px;
-		opacity: 0.25;
+		width: 100%;
+		opacity: 0;
+		position: absolute;
+		transition: opacity 1s ease-in-out;
 	}
 	img.show {
 		opacity: 1;
 	}
+	
 }
+
+.button{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 400px
+	}
